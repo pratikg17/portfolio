@@ -1,45 +1,33 @@
-import img00 from '../../assets/projectsImg/00-project.png'
-import img01 from '../../assets/projectsImg/01-project.png'
-import img02 from '../../assets/projectsImg/02-project.png'
-import img03 from '../../assets/projectsImg/03-project.png'
-import img04 from '../../assets/projectsImg/04-project.png'
-import img05 from '../../assets/projectsImg/05-project.png'
+import img00 from "../../assets/projectsImg/00-project.png";
+import img01 from "../../assets/projectsImg/01-project.png";
+import img02 from "../../assets/projectsImg/02-project.png";
+import img03 from "../../assets/projectsImg/03-project.png";
+import img04 from "../../assets/projectsImg/04-project.png";
+import img05 from "../../assets/projectsImg/05-project.png";
 
 export const ProjectsObject = [
   {
-    name: 'Crossfit Gym Website_',
+    name: "Stock Verse - Stock Trading Platform",
     image: img00,
-    projectUrl: 'https://crossfitatos.com.br/primeiropasso',
-    repositoryUrl: 'https://github.com/brinobruno/atosbox-landingpage-01'
+    projectUrl: "https://stockverse-react.herokuapp.com/",
+    repositoryUrl: "https://github.com/pratikg17/project-fastify-intel",
   },
   {
-    name: 'Candy Store Website_',
+    name: "Polly - A Realtime Polling Application",
     image: img01,
-    projectUrl: 'https://da-so.vercel.app/',
-    repositoryUrl: 'https://github.com/brinobruno/DASO-confeitaria'
+    projectUrl: "https://poll-react.herokuapp.com/",
+    repositoryUrl: "https://github.com/pratikg17/polling-react-app",
   },
   {
-    name: 'React Todo App_',
+    name: "Expensify - Expense Tracker Application",
     image: img02,
-    projectUrl: 'https://main.d1umw160g6fy01.amplifyapp.com',
-    repositoryUrl: 'https://github.com/brinobruno/React-Tasks-List'
+    projectUrl: "https://expensify-react-client.herokuapp.com/",
+    repositoryUrl: "https://github.com/pratikg17/expensify",
   },
   {
-    name: 'Snake Game_',
+    name: "Orphanage Supplies Ecosystem",
     image: img03,
-    projectUrl: 'https://distracted-beaver-2aa861.netlify.app/',
-    repositoryUrl: 'https://github.com/brinobruno/Jogo-da-Cobrinha'
+    projectUrl: "https://github.com/pratikg17neu/AED_Final_Project",
+    repositoryUrl: "https://github.com/pratikg17neu/AED_Final_Project",
   },
-  {
-    name: 'JSON Placeholder_',
-    image: img04,
-    projectUrl: 'https://json-io.vercel.app/',
-    repositoryUrl: 'https://github.com/brinobruno/JSONPlaceholder'
-  },
-  {
-    name: 'Personal Blog_',
-    image: img05,
-    projectUrl: 'https://natelha.blog/',
-    repositoryUrl: 'https://github.com/brinobruno/na-telha'
-  },
-]
+];

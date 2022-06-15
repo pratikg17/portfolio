@@ -16,7 +16,7 @@ export function App() {
       <AboutMe />
       <Skills />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
       <GlobalStyle />
     </>

@@ -35,7 +35,7 @@ export function Skills() {
               })
             }
           </SkillsGrid>
-          <Code>&#60;details&#62;I also code C++ but don’t tell anyone&#60;/details&#62;</Code>
+          {/* <Code>&#60;details&#62;I also code C++ but don’t tell anyone&#60;/details&#62;</Code> */}
       </Content>
     </Container>
   )

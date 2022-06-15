@@ -6,19 +6,15 @@ import { ReactComponent as BlogIcon } from "../../assets/userIcons/blog.svg";
 export const socialIconsData = [
   {
     component: <GithubIcon className="socialIcon" />,
-    url: "https://github.com/brinobruno",
+    url: "https://github.com/pratikg17",
   },
   {
     component: <LinkedinIcon className="socialIcon" />,
-    url: "https://www.linkedin.com/in/brunociao/",
+    url: "https://www.linkedin.com/in/pratikg17/",
   },
   {
     component: <EmailIcon className="socialIcon" />,
-    url: "mailto:brunosantos6ft@gmail.com",
-  },
-  {
-    component: <BlogIcon className="socialIcon" />,
-    url: "https://natelha.blog",
+    url: "mailto:pjgawand@gmail.com",
   },
 ];
 

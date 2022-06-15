@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Modal from 'react-modal'
 
-import englishCV from '../../assets/resume/BrunoCorrea Resume EN_us.pdf'
+import englishCV from '../../assets/resume/Pratik Gawand_Resume.pdf'
 
 import { Container, Content, Text, Title, Subtitle, DownloadHome } from './styles'
 
@@ -34,7 +34,9 @@ export function Home() {
 
                 I'm Pratik</Title>
                 <Subtitle>A software developer</Subtitle>
-                <DownloadHome  id="download-home" >Resume <img src={downloadIcon}  alt="Ícone de download" /></DownloadHome>
+                <DownloadHome  onClick={()=> {
+                 window.open(englishCV) 
+                }} id="download-home" >Resume <img src={downloadIcon}  alt="Ícone de download" /></DownloadHome>
                    
               </Text>
             </div>

@@ -1,0 +1,23 @@
+.socialIcon:hover path {
+  fill: #66ecbc;
+  transition: 0.4s ease;
+}
+
+#menu-icon-switch {
+  color: var(--body-text-color);
+  font-size: 24px;
+
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #menu-icon-switch {  
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    cursor: pointer;
+
+    margin-left: 85vw;
+    margin-right: 2rem;
+  }
+}

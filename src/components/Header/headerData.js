@@ -1,7 +1,6 @@
 import { ReactComponent as GithubIcon } from "../../assets/userIcons/github.svg";
 import { ReactComponent as LinkedinIcon } from "../../assets/userIcons/linkedin.svg";
 import { ReactComponent as EmailIcon } from "../../assets/userIcons/email.svg";
-import { ReactComponent as BlogIcon } from "../../assets/userIcons/blog.svg";
 
 export const socialIconsData = [
   {

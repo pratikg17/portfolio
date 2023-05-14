@@ -25,7 +25,7 @@ export const ProjectsObject = [
   },
   {
     name: "IMDB - Movie Library",
-    image: img02,
+    image: img06,
     projectUrl: "https://visionary-souffle-d7e83e.netlify.app/",
     repositoryUrl: "https://github.com/pratikg17neu/movies-app",
   },

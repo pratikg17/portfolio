@@ -28,14 +28,6 @@ export const skillsData = [
     typeTag0: "Backend",
     typeTag1: "",
   },
-
-  {
-    name: "Git",
-    description: "Version control system",
-    icon: gitIcon,
-    typeTag0: "Versioning",
-    typeTag1: "",
-  },
   {
     name: "React",
     description: "JavaScript UI library",
@@ -51,19 +43,27 @@ export const skillsData = [
     typeTag1: "",
   },
   {
-    name: "SQL",
-    description: "Structured Query Language",
-    icon: sqlIcon,
-    typeTag0: "Database",
-    typeTag1: "",
-  },
-  {
     name: "NodeJS",
     description: "JavaScript runtime",
     icon: nodeIcon,
     typeTag0: "Backend",
     typeTag1: "",
   },
+  {
+    name: "Git",
+    description: "Version control system",
+    icon: gitIcon,
+    typeTag0: "Versioning",
+    typeTag1: "",
+  },
+  {
+    name: "SQL",
+    description: "Structured Query Language",
+    icon: sqlIcon,
+    typeTag0: "Database",
+    typeTag1: "",
+  },
+
   {
     name: "HTML5",
     description: "Hypertext Markup Language",

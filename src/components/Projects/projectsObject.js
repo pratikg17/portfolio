@@ -2,6 +2,7 @@ import img00 from "../../assets/projectsImg/00-project.png";
 import img01 from "../../assets/projectsImg/01-project.png";
 import img02 from "../../assets/projectsImg/02-project.png";
 import img03 from "../../assets/projectsImg/03-project.png";
+import img06 from "../../assets/projectsImg/06-project.png";
 
 export const ProjectsObject = [
   {
@@ -21,6 +22,12 @@ export const ProjectsObject = [
     image: img02,
     projectUrl: "https://expensify-react-client.herokuapp.com/",
     repositoryUrl: "https://github.com/pratikg17/expensify",
+  },
+  {
+    name: "IMDB - Movie Library",
+    image: img02,
+    projectUrl: "https://visionary-souffle-d7e83e.netlify.app/",
+    repositoryUrl: "https://github.com/pratikg17neu/movies-app",
   },
   {
     name: "Orphanage Supplies Ecosystem",
